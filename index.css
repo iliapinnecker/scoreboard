@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #0c4a6e;
+}
+
+.score {
+    background: #0a0001;
+    font-size: 90px;
+    color: #f94f6d;
+    width: 120px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background: none;
+    border-radius: 5px;
+    height: 30px;
+    color: aliceblue;
+}
+
+button:hover {
+    border-color: aliceblue;
+}
+
+h3 {
+    color: white;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.reset {
+    position: absolute;
+    top: 275px;
+    height: 100px;
+}
+
+.reset-button {
+    background: none;
+    height: 50px;
+    font-size: 35px;
+}
